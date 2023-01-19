@@ -45,3 +45,20 @@ untuk mengecek validitas dan menampilkan semua pesanan dalam dictionary.
 
 10. total_price()
 untuk menampilkan semua pesanan dan total belanja
+
+## Test Case
+- Menambahkan Item
+- Menghapus Item
+- Melakukan reset transaksi
+- Menghitung Total price
+- Melakukan update untuk nama item
+- Melakukan update untuk jumlah item
+- Melakukan update untuk harga item
+- Menghitung total price setelah diskon
+- Terdapat kesalahan input
+
+## Kesimpulan
+Sistem super cashier saat ini sudah dapat digunakan untuk mempermudah customer yang berada diluar kota tempat super market tersebut didirikan sehingga dalam hal ini customer dapat membeli item dengan melihat harga serta diskon yang diperoleh 
+
+## Future Work
+jika dalam hal ini terdapat waktu yang lebih serta SDM yang unggul atau lebih maka program ini dapat lebih ditingkatkan dengan menambahkan fitur item/barang yang sudah habis tidak dapat dipilih oleh customer sehingga customer dapat mengetahui informasi tersebut 
