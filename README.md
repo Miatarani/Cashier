@@ -14,8 +14,10 @@ sistem kasir yang dibuat mengikuti alur sebagai berikut:
 ## Function
 1. init()
 untuk class Transaction
-dict_trans (dict) = untuk menyimpan data transaksi (dict)
-trans_valid (boolean) = untuk memeriksa apakah data yang dimasukkan dalam dict_trans sudah benar. Nilai awal berupa True namun dapat berubah menjadi False setelah validitasnya diperiksa oleh suatu fungsi.
+
+- dict_trans (dict) = untuk menyimpan data transaksi (dict)
+
+- trans_valid (boolean) = untuk memeriksa apakah data yang dimasukkan dalam dict_trans sudah benar. Nilai awal berupa True namun dapat berubah menjadi False setelah validitasnya diperiksa oleh suatu fungsi.
 
 2. add_item(nama, jumlah, harga)
 untuk menambahkan item ke dalam dictionary transaksi.
