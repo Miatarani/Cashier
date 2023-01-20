@@ -12,50 +12,49 @@ sistem kasir yang dibuat mengikuti alur sebagai berikut:
 ## Flow Chart
 ![Doc1 (1)](https://user-images.githubusercontent.com/100061645/213378375-b064e0d1-61d1-4c29-8ff0-56ad6ffdea53.png)
 ## Function
-1. init()
+1. __init__()
 untuk class Transaction
 
-- dict_trans (dict) = untuk menyimpan data transaksi (dict)
+- dict_transaksi (dict) = untuk menyimpan data transaksi (dict)
 
-- trans_valid (boolean) = untuk memeriksa apakah data yang dimasukkan dalam dict_trans sudah benar. Nilai awal berupa True namun dapat berubah menjadi False setelah validitasnya diperiksa oleh suatu fungsi.
+- trans_valid (boolean) = untuk memeriksa apakah data yang dimasukkan dalam dictonary sudah bena
 
 2. add_item(nama, jumlah, harga)
-untuk menambahkan item ke dalam dictionary transaksi.
+untuk menambahkan item ke dalam dictionary transaksi
 
 3. update_item_name(nama, nama_baru)
-untuk mengubah nama item dalam dictionary yang sudah dimasukkan.
+untuk mengubah nama item dalam dictionary yang sudah dimasukkan
 
 4. update_item_qty(nama, jumlah_baru)
-untuk mengubah jumlah item dalam dictionary yang sudah dimasukkan.
+untuk mengubah jumlah item dalam dictionary yang sudah dimasukkan
 
 5. update_item_price(nama, harga_baru)
-untuk mengubah harga item dalam dictionary yang sudah dimasukkan.
+untuk mengubah harga item dalam dictionary yang sudah dimasukkan
 
 6. delete_item(nama)
-untuk menghapus data nama item beserta jumlah dan harganya dari dictionary.
+untuk menghapus data nama item beserta jumlah dan harganya dari dictionary
 
 7. reset_transaction()
-untuk menghapus semua data pesanan dalam dictionary.
+untuk menghapus semua data pesanan dalam dictionary
 
 8. print_order()
-untuk menampilkan semua pesanan dalam dictionary.
+untuk menampilkan semua pesanan dalam dictionary
 
 9. check_order()
-untuk mengecek validitas dan menampilkan semua pesanan dalam dictionary.
+untuk mengecek dan menampilkan semua pesanan dalam dictionary
 
 10. total_price()
-untuk menampilkan semua pesanan dan total belanja
+untuk menampilkan semua pesanan dan total spending
 
 ## Test Case
-- Menambahkan Item
+- Membuat ID dan Menambahkan Item
+<img width="941" alt="2023-01-20 (2)" src="https://user-images.githubusercontent.com/100061645/213648660-307bbb24-579e-4f18-9b8e-563b0b3bcf64.png">
 - Menghapus Item
+<img width="954" alt="2023-01-20 (3)" src="https://user-images.githubusercontent.com/100061645/213649044-a0aa757f-5746-4f16-965a-43bdcd6d1f67.png">
 - Melakukan reset transaksi
-- Menghitung Total price
-- Melakukan update untuk nama item
-- Melakukan update untuk jumlah item
-- Melakukan update untuk harga item
-- Menghitung total price setelah diskon
-- Terdapat kesalahan input
+<img width="299" alt="2023-01-20 (5)" src="https://user-images.githubusercontent.com/100061645/213649497-e1986f29-c879-4769-9014-b0c2c0984b1f.png">
+- Menghitung Total spending yang sudah termasuk diskon
+<img width="955" alt="2023-01-20 (6)" src="https://user-images.githubusercontent.com/100061645/213649620-69ad7b03-fc37-4a25-a4d3-d31412a7b4d9.png">
 
 ## Kesimpulan
 Sistem super cashier saat ini sudah dapat digunakan untuk mempermudah customer yang berada diluar kota tempat super market tersebut didirikan sehingga dalam hal ini customer dapat membeli item dengan melihat harga serta diskon yang diperoleh 
