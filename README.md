@@ -42,7 +42,7 @@ untuk menampilkan semua pesanan dalam dictionary
 9. check_order()
 untuk mengecek dan menampilkan semua pesanan dalam dictionary
 
-10. total_price()
+10. total_spending()
 untuk menampilkan semua pesanan dan total spending
 
 ## Test Case
