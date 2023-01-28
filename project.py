@@ -13,7 +13,6 @@ class Transaction:
        Parameter:
        dict_transaksi (dict) = untuk menyimpan data transaksi (dict) 
        transaksi_valid = untuk memeriksa apakah data yang dimasukkan dalam dict_transaksi sudah benar. 
-       Nilai awal adalah True dan bisa berubah False setelah dicek kebenarannya.
 
        """
 
