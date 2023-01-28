@@ -16,7 +16,7 @@ untuk class Transaction
 
 - dict_transaksi (dict) = untuk menyimpan data transaksi (dict)
 
-- trans_valid (boolean) = untuk memeriksa apakah data yang dimasukkan dalam dictonary sudah bena
+- trans_valid = untuk memeriksa apakah data yang dimasukkan dalam dictonary sudah benar
 
 2. add_item(nama, jumlah, harga)
 untuk menambahkan item ke dalam dictionary transaksi
